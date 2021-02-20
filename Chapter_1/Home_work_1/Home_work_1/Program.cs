@@ -12,7 +12,7 @@ namespace Home_work_1
         {
             Console.Write("Введите метры: ");
             int metrTotal = Convert.ToInt32(Console.ReadLine());
-            //int meterTotal = centimeterTotal + 1000;
+            
             Console.WriteLine($"Метры {metrTotal} это будет {metrTotal *1000} сантиметров");
             Console.ReadKey();
         }
