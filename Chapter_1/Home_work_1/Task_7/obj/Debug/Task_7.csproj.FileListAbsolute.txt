@@ -1,0 +1,9 @@
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\bin\Debug\Task_7.exe.config
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\bin\Debug\Task_7.exe
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\bin\Debug\Task_7.pdb
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\obj\Debug\Task_7.csprojAssemblyReference.cache
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\obj\Debug\Task_7.Properties.Resources.resources
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\obj\Debug\Task_7.csproj.GenerateResource.cache
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\obj\Debug\Task_7.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\obj\Debug\Task_7.exe
+G:\ITEABASEC#\Chapter_1\Home_work_1\Task_7\obj\Debug\Task_7.pdb
