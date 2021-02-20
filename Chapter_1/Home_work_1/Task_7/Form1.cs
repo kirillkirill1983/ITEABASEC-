@@ -19,7 +19,16 @@ namespace Task_7
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label4.Text = DateTime.Now.ToString("dd MM yyyy");
+            var dateStart = DateTime.Now;
 
+            var dateEnd = monthCalendar1.SelectionRange.End;
+            label5.Text = dateEnd.ToString("dd MM yyyy");
+
+            TimeSpan deltaYear = dateStart - dateEnd;
+
+            //string countYear = $"{deltaYear.Days} дней жизни или = лет {deltaYear.Days / 365}";
+            label6.Text = ((deltaYear.Days)/365).ToString();
         }
     }
 }
