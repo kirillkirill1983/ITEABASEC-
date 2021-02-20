@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_work_1", "Home_work_1\Home_work_1.csproj", "{8AB1A9FC-F961-46B8-91B4-C7BF2B3D1FF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_1", "Home_work_1\Task_1.csproj", "{8AB1A9FC-F961-46B8-91B4-C7BF2B3D1FF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_2", "Task_2\Task_2.csproj", "{64949BA5-4518-41A2-BB2A-FEADD5326F6B}"
 EndProject
