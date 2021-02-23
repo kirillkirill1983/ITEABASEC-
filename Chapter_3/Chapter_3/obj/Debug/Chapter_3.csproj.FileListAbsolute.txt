@@ -1,0 +1,7 @@
+G:\ITEABASEC#\Chapter_3\Chapter_3\bin\Debug\Chapter_3.exe.config
+G:\ITEABASEC#\Chapter_3\Chapter_3\bin\Debug\Chapter_3.exe
+G:\ITEABASEC#\Chapter_3\Chapter_3\bin\Debug\Chapter_3.pdb
+G:\ITEABASEC#\Chapter_3\Chapter_3\obj\Debug\Chapter_3.csprojAssemblyReference.cache
+G:\ITEABASEC#\Chapter_3\Chapter_3\obj\Debug\Chapter_3.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\Chapter_3\Chapter_3\obj\Debug\Chapter_3.exe
+G:\ITEABASEC#\Chapter_3\Chapter_3\obj\Debug\Chapter_3.pdb
