@@ -1,0 +1,7 @@
+D:\Bks\ITEA\Home_work_2\Task_5\bin\Debug\Task_5.exe.config
+D:\Bks\ITEA\Home_work_2\Task_5\bin\Debug\Task_5.exe
+D:\Bks\ITEA\Home_work_2\Task_5\bin\Debug\Task_5.pdb
+D:\Bks\ITEA\Home_work_2\Task_5\obj\Debug\Task_5.csprojAssemblyReference.cache
+D:\Bks\ITEA\Home_work_2\Task_5\obj\Debug\Task_5.csproj.CoreCompileInputs.cache
+D:\Bks\ITEA\Home_work_2\Task_5\obj\Debug\Task_5.exe
+D:\Bks\ITEA\Home_work_2\Task_5\obj\Debug\Task_5.pdb

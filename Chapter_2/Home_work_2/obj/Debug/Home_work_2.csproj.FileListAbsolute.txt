@@ -1,0 +1,7 @@
+D:\Bks\ITEA\Home_work_2\Home_work_2\bin\Debug\Home_work_2.exe.config
+D:\Bks\ITEA\Home_work_2\Home_work_2\bin\Debug\Home_work_2.exe
+D:\Bks\ITEA\Home_work_2\Home_work_2\bin\Debug\Home_work_2.pdb
+D:\Bks\ITEA\Home_work_2\Home_work_2\obj\Debug\Home_work_2.csprojAssemblyReference.cache
+D:\Bks\ITEA\Home_work_2\Home_work_2\obj\Debug\Home_work_2.csproj.CoreCompileInputs.cache
+D:\Bks\ITEA\Home_work_2\Home_work_2\obj\Debug\Home_work_2.exe
+D:\Bks\ITEA\Home_work_2\Home_work_2\obj\Debug\Home_work_2.pdb
