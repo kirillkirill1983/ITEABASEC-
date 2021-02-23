@@ -5,3 +5,10 @@ D:\Bks\ITEA\Home_work_2\Task_2\obj\Debug\Task_2.csprojAssemblyReference.cache
 D:\Bks\ITEA\Home_work_2\Task_2\obj\Debug\Task_2.csproj.CoreCompileInputs.cache
 D:\Bks\ITEA\Home_work_2\Task_2\obj\Debug\Task_2.exe
 D:\Bks\ITEA\Home_work_2\Task_2\obj\Debug\Task_2.pdb
+G:\ITEABASEC#\Chapter_2\Task_2\bin\Debug\Task_2.exe.config
+G:\ITEABASEC#\Chapter_2\Task_2\bin\Debug\Task_2.exe
+G:\ITEABASEC#\Chapter_2\Task_2\bin\Debug\Task_2.pdb
+G:\ITEABASEC#\Chapter_2\Task_2\obj\Debug\Task_2.csprojAssemblyReference.cache
+G:\ITEABASEC#\Chapter_2\Task_2\obj\Debug\Task_2.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\Chapter_2\Task_2\obj\Debug\Task_2.exe
+G:\ITEABASEC#\Chapter_2\Task_2\obj\Debug\Task_2.pdb
