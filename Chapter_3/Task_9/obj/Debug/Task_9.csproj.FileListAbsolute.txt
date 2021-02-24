@@ -4,3 +4,4 @@ G:\ITEABASEC#\Chapter_3\Task_9\bin\Debug\Task_9.pdb
 G:\ITEABASEC#\Chapter_3\Task_9\obj\Debug\Task_9.csproj.CoreCompileInputs.cache
 G:\ITEABASEC#\Chapter_3\Task_9\obj\Debug\Task_9.exe
 G:\ITEABASEC#\Chapter_3\Task_9\obj\Debug\Task_9.pdb
+G:\ITEABASEC#\Chapter_3\Task_9\obj\Debug\Task_9.csprojAssemblyReference.cache
