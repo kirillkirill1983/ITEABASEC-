@@ -4,3 +4,4 @@ G:\ITEABASEC#\Chapter_3\Task_6\bin\Debug\Task_6.pdb
 G:\ITEABASEC#\Chapter_3\Task_6\obj\Debug\Task_6.csproj.CoreCompileInputs.cache
 G:\ITEABASEC#\Chapter_3\Task_6\obj\Debug\Task_6.exe
 G:\ITEABASEC#\Chapter_3\Task_6\obj\Debug\Task_6.pdb
+G:\ITEABASEC#\Chapter_3\Task_6\obj\Debug\Task_6.csprojAssemblyReference.cache
