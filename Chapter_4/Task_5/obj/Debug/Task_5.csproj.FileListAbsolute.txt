@@ -1,0 +1,14 @@
+D:\Bks\ITEA\Chapter_5\Task_5\bin\Debug\Task_5.exe.config
+D:\Bks\ITEA\Chapter_5\Task_5\bin\Debug\Task_5.exe
+D:\Bks\ITEA\Chapter_5\Task_5\bin\Debug\Task_5.pdb
+D:\Bks\ITEA\Chapter_5\Task_5\obj\Debug\Task_5.csprojAssemblyReference.cache
+D:\Bks\ITEA\Chapter_5\Task_5\obj\Debug\Task_5.csproj.CoreCompileInputs.cache
+D:\Bks\ITEA\Chapter_5\Task_5\obj\Debug\Task_5.exe
+D:\Bks\ITEA\Chapter_5\Task_5\obj\Debug\Task_5.pdb
+G:\ITEABASEC#\Chapter_4\Task_5\bin\Debug\Task_5.exe.config
+G:\ITEABASEC#\Chapter_4\Task_5\bin\Debug\Task_5.exe
+G:\ITEABASEC#\Chapter_4\Task_5\bin\Debug\Task_5.pdb
+G:\ITEABASEC#\Chapter_4\Task_5\obj\Debug\Task_5.csprojAssemblyReference.cache
+G:\ITEABASEC#\Chapter_4\Task_5\obj\Debug\Task_5.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\Chapter_4\Task_5\obj\Debug\Task_5.exe
+G:\ITEABASEC#\Chapter_4\Task_5\obj\Debug\Task_5.pdb

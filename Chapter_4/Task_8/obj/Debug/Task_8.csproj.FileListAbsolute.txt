@@ -1,0 +1,14 @@
+D:\Bks\ITEA\Chapter_5\Task_8\bin\Debug\Task_8.exe.config
+D:\Bks\ITEA\Chapter_5\Task_8\bin\Debug\Task_8.exe
+D:\Bks\ITEA\Chapter_5\Task_8\bin\Debug\Task_8.pdb
+D:\Bks\ITEA\Chapter_5\Task_8\obj\Debug\Task_8.csproj.CoreCompileInputs.cache
+D:\Bks\ITEA\Chapter_5\Task_8\obj\Debug\Task_8.exe
+D:\Bks\ITEA\Chapter_5\Task_8\obj\Debug\Task_8.pdb
+D:\Bks\ITEA\Chapter_5\Task_8\obj\Debug\Task_8.csprojAssemblyReference.cache
+G:\ITEABASEC#\Chapter_4\Task_8\bin\Debug\Task_8.exe.config
+G:\ITEABASEC#\Chapter_4\Task_8\bin\Debug\Task_8.exe
+G:\ITEABASEC#\Chapter_4\Task_8\bin\Debug\Task_8.pdb
+G:\ITEABASEC#\Chapter_4\Task_8\obj\Debug\Task_8.csprojAssemblyReference.cache
+G:\ITEABASEC#\Chapter_4\Task_8\obj\Debug\Task_8.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\Chapter_4\Task_8\obj\Debug\Task_8.exe
+G:\ITEABASEC#\Chapter_4\Task_8\obj\Debug\Task_8.pdb
