@@ -1,0 +1,10 @@
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\bin\Debug\Calendar.exe.config
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\bin\Debug\Calendar.exe
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\bin\Debug\Calendar.pdb
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\obj\Debug\Calendar.csprojAssemblyReference.cache
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\obj\Debug\Calendar.Properties.Resources.resources
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\obj\Debug\Calendar.csproj.GenerateResource.cache
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\obj\Debug\Calendar.exe
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\obj\Debug\Calendar.pdb
+G:\ITEABASEC#\FinalProject\FinalProject\Calendar\obj\Debug\Calendar.Form1.resources
