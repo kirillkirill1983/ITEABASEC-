@@ -1,0 +1,7 @@
+D:\Bks\ITEA\Chapter_6\Task_4\bin\Debug\Task_4.exe.config
+D:\Bks\ITEA\Chapter_6\Task_4\bin\Debug\Task_4.exe
+D:\Bks\ITEA\Chapter_6\Task_4\bin\Debug\Task_4.pdb
+D:\Bks\ITEA\Chapter_6\Task_4\obj\Debug\Task_4.csprojAssemblyReference.cache
+D:\Bks\ITEA\Chapter_6\Task_4\obj\Debug\Task_4.csproj.CoreCompileInputs.cache
+D:\Bks\ITEA\Chapter_6\Task_4\obj\Debug\Task_4.exe
+D:\Bks\ITEA\Chapter_6\Task_4\obj\Debug\Task_4.pdb

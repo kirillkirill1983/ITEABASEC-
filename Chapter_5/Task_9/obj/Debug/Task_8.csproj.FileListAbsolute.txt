@@ -1,0 +1,12 @@
+D:\Bks\ITEA\Chapter_6\Task_6\bin\Debug\Task_6.exe.config
+D:\Bks\ITEA\Chapter_6\Task_6\bin\Debug\Task_6.exe
+D:\Bks\ITEA\Chapter_6\Task_6\bin\Debug\Task_6.pdb
+D:\Bks\ITEA\Chapter_6\Task_6\obj\Debug\Task_8.csproj.CoreCompileInputs.cache
+D:\Bks\ITEA\Chapter_6\Task_6\obj\Debug\Task_6.exe
+D:\Bks\ITEA\Chapter_6\Task_6\obj\Debug\Task_6.pdb
+G:\ITEABASEC#\Chapter_5\Task_9\bin\Debug\Task_6.exe.config
+G:\ITEABASEC#\Chapter_5\Task_9\bin\Debug\Task_6.exe
+G:\ITEABASEC#\Chapter_5\Task_9\bin\Debug\Task_6.pdb
+G:\ITEABASEC#\Chapter_5\Task_9\obj\Debug\Task_8.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\Chapter_5\Task_9\obj\Debug\Task_6.exe
+G:\ITEABASEC#\Chapter_5\Task_9\obj\Debug\Task_6.pdb
