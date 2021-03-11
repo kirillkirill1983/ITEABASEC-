@@ -17,7 +17,7 @@ namespace Task_6
                 Console.Write($" {startArray[i]}");
             }
             Console.WriteLine();
-            Console.WriteLine("введите числодля добавления\n");
+            Console.WriteLine("введите числодля добавления");
             int namberPlus = Convert.ToInt32(Console.ReadLine());
             PlusArray(startArray, namberPlus, out int[] result);
             for (int i = 0; i < result.Length; i++)
