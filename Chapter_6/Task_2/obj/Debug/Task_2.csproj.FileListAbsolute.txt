@@ -1,0 +1,7 @@
+G:\ITEABASEC#\Chapter_6\Task_2\bin\Debug\Task_2.exe.config
+G:\ITEABASEC#\Chapter_6\Task_2\bin\Debug\Task_2.exe
+G:\ITEABASEC#\Chapter_6\Task_2\bin\Debug\Task_2.pdb
+G:\ITEABASEC#\Chapter_6\Task_2\obj\Debug\Task_2.csprojAssemblyReference.cache
+G:\ITEABASEC#\Chapter_6\Task_2\obj\Debug\Task_2.csproj.CoreCompileInputs.cache
+G:\ITEABASEC#\Chapter_6\Task_2\obj\Debug\Task_2.exe
+G:\ITEABASEC#\Chapter_6\Task_2\obj\Debug\Task_2.pdb
