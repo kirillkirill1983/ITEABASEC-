@@ -16,23 +16,38 @@ namespace Task_5
         }
         private string nameFigure;
 
-        public Figure(Point point1, Point point2, Point point3)
+        //public Figure(Point point1, Point point2, Point point3)
+        //{
+        //    this.points[0] = point1;
+        //    this.points[1] = point2;
+        //    this.points[2] = point3;
+        //}
+
+        //public Figure(Point point1, Point point2, Point point3,Point point4)
+        //    :this(point1, point2,point3)
+        //{
+        //    this.points[3] = point4;
+        //}
+        public Figure(Point[] point)
         {
-            this.points[0] = point1;
-            this.points[1] = point2;
-            this.points[2] = point3;
+            this.points = point;
         }
 
-        public Figure(Point point1, Point point2, Point point3,Point point4)
-            :this(point1, point2,point3)
-        {
-            this.points[3] = point4;
-        }
 
         public double Dlina(Point pointX1,Point pointx2) 
         {
             double result = Math.Sqrt((Math.Pow(2, pointx2.PontX-pointX1.PontX)+
-                Math.Pow(2, pointx2.PontX - pointX1.PontX)));
+                Math.Pow(2, pointx2.PointY - pointX1.PointY)));
+            return result;
+        }
+        public double Perimetr() 
+        {
+            double result=0.0;
+
+            foreach (var item in points)
+            {
+                result =+ Dlina(item, item);
+            }
             return result;
         }
     }
