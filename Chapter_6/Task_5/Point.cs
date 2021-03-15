@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_5
+namespace Chapter_7
 {
     class Point
     {
         private int pointX;
         private int pointY;
-        private string namePoint;
-        
-        public int PontX 
+        private string name;
+
+        public int PointX 
         {
             set { pointX = value; }
             get { return pointX; }
@@ -22,17 +22,16 @@ namespace Task_5
             set { pointY = value; }
             get { return pointY; }
         }
-        public string NamePoint 
+        public string Name 
         {
-            set { namePoint = value; }
-            get { return namePoint; }
+            set { name = value; }
+            get { return name; }
         }
-
-        public Point(int valueX, int valueY, string name) 
+        public Point(int valueX, int valueY, string valuename)
         {
             pointX = valueX;
             pointY = valueY;
-            namePoint = name;
+            name = valuename;
         }
     }
 }

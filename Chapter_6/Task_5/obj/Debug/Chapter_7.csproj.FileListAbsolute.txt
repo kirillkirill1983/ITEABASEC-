@@ -1,0 +1,7 @@
+C:\Users\adm.kirill.baev\source\repos\Chapter_7\Chapter_7\bin\Debug\Chapter_7.exe.config
+C:\Users\adm.kirill.baev\source\repos\Chapter_7\Chapter_7\bin\Debug\Chapter_7.exe
+C:\Users\adm.kirill.baev\source\repos\Chapter_7\Chapter_7\bin\Debug\Chapter_7.pdb
+C:\Users\adm.kirill.baev\source\repos\Chapter_7\Chapter_7\obj\Debug\Chapter_7.csproj.CoreCompileInputs.cache
+C:\Users\adm.kirill.baev\source\repos\Chapter_7\Chapter_7\obj\Debug\Chapter_7.exe
+C:\Users\adm.kirill.baev\source\repos\Chapter_7\Chapter_7\obj\Debug\Chapter_7.pdb
+C:\Users\adm.kirill.baev\source\repos\Chapter_7\Chapter_7\obj\Debug\Chapter_7.csprojAssemblyReference.cache

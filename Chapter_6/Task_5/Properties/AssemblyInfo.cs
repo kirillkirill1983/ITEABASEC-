@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Task_5")]
+[assembly: AssemblyTitle("Chapter_7")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Task_5")]
+[assembly: AssemblyProduct("Chapter_7")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("414d7d6b-efdd-4968-910a-c2df97ff0d07")]
+[assembly: Guid("a5cc9c8e-47e7-4f61-a442-d0ecd44ccd29")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

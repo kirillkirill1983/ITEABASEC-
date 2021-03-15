@@ -4,32 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_5
+namespace Chapter_7
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Point pointA = new Point(1,1,"rectang");
-            Point pointB = new Point(1,1, "rectang");
-            Point pointC = new Point(3,1, "rectang");
+            Point point1 = new Point(1, 2, "F");
+            Point point2 = new Point(3, 3, "r");
+            Point point3 = new Point(6, 6, "r");
+            Point point4 = new Point(8, 8, "r");
+            Point point5 = new Point(9, 9, "fb");
 
-            Point[] points = new Point[3];
-            points[0] = pointA;
-            points[0] = pointB;
-            points[0] = pointC;
-            //Figure figure = new Figure(pointA,pointB,pointC);
+            Point[] points = new Point[5];
+            points[0] = point1;
+            points[1] = point2;
+            points[2] = point3;
+            points[3] = point4;
+            points[4] = point5;
 
-            Figure figure = new Figure(points);
-
-            var result = figure.Dlina(pointA, pointB);
+            Figure figure = new Figure(point1, point2, point3,point4);
+            Figure figure1 = new Figure(points);
             
-            Console.WriteLine(String.Format("=>> {0:f}", result));
+            Console.WriteLine(string.Format("Длина между точками = {0:f}",figure.Dlina(point3,point4) ));
 
-            var perimetr = figure.Perimetr();
-            Console.WriteLine(String.Format("=>> {0:f}", perimetr));
+            Console.WriteLine(string.Format("Периметр без массива = {0:f}",figure.Perimetr()));
+
+            Console.WriteLine(string.Format("Периметр массив = {0:f}",figure1.Perimetr()));
+
             Console.ReadKey();
         }
     }
 }
-
