@@ -14,7 +14,7 @@ namespace Chapter_7
             Point point2 = new Point(3, 3, "r");
             Point point3 = new Point(6, 6, "r");
             Point point4 = new Point(8, 8, "r");
-            Point point5 = new Point(9, 9, "fb");
+            Point point5 = new Point(9, 16, "fb");
 
             Point[] points = new Point[5];
             points[0] = point1;
