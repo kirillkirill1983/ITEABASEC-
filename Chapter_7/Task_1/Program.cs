@@ -15,6 +15,9 @@ namespace Task_1
             Dog dogBad = new Dog(tail,"серый",12,"Сеня");
             dog.Info();
             dogBad.Info();
+            dog.Tail = new Tail(13, "короткий");
+            Console.WriteLine(dog.GetType());
+            dog.Info();
             Console.ReadKey();
         }
     }
