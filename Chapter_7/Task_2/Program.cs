@@ -22,7 +22,7 @@ namespace Task_1
             
             while (true)
             {
-                Console.WriteLine("Введите для выхода NO продолжить Enter");
+                Console.WriteLine("Введите для выхода No продолжить Enter");
                 string exit = Convert.ToString(Console.ReadLine());
                 if (exit=="No")
                 {
