@@ -12,5 +12,10 @@ namespace Task_3
         public abstract void DocumentContent();
         public abstract void Footer();
 
+        public virtual void Virtual() 
+        {
+            Console.WriteLine("Virtual abstractclass");
+        }
+
     }
 }

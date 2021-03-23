@@ -15,6 +15,8 @@ namespace Task_3
             documentInfo.DocumentContent();
             documentInfo.Footer();
 
+            documentInfo.Virtual();
+
             Console.ReadKey();
         }
     }
