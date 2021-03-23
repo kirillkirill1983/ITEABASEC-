@@ -11,6 +11,7 @@ namespace Task_2
             Console.WriteLine("Play or Recodr");
             string movePlay = Convert.ToString(Console.ReadLine());
             Console.WriteLine(new string('=', 10));
+            /// в бесконечном циклк по услвию выхода 
             switch (movePlay)
             {
                 case "Play":
