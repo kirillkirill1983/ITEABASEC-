@@ -132,6 +132,8 @@ namespace Calendar
             }
             label33.Visible = true;
             label33.Text = sumFlaf.ToString();
+            label36.Visible = true;
+            label36.Text = (sumFlaf * 8).ToString();
            
             
             
