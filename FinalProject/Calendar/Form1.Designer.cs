@@ -93,6 +93,7 @@ namespace Calendar
             this.label31 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -153,7 +154,7 @@ namespace Calendar
             // 
             // richTextBox8
             // 
-            this.richTextBox8.Location = new System.Drawing.Point(47, 160);
+            this.richTextBox8.Location = new System.Drawing.Point(47, 194);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.Size = new System.Drawing.Size(100, 96);
             this.richTextBox8.TabIndex = 13;
@@ -161,7 +162,7 @@ namespace Calendar
             // 
             // richTextBox9
             // 
-            this.richTextBox9.Location = new System.Drawing.Point(153, 160);
+            this.richTextBox9.Location = new System.Drawing.Point(153, 194);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.Size = new System.Drawing.Size(100, 96);
             this.richTextBox9.TabIndex = 12;
@@ -169,7 +170,7 @@ namespace Calendar
             // 
             // richTextBox10
             // 
-            this.richTextBox10.Location = new System.Drawing.Point(259, 160);
+            this.richTextBox10.Location = new System.Drawing.Point(259, 194);
             this.richTextBox10.Name = "richTextBox10";
             this.richTextBox10.Size = new System.Drawing.Size(100, 96);
             this.richTextBox10.TabIndex = 11;
@@ -177,7 +178,7 @@ namespace Calendar
             // 
             // richTextBox11
             // 
-            this.richTextBox11.Location = new System.Drawing.Point(365, 160);
+            this.richTextBox11.Location = new System.Drawing.Point(365, 194);
             this.richTextBox11.Name = "richTextBox11";
             this.richTextBox11.Size = new System.Drawing.Size(100, 96);
             this.richTextBox11.TabIndex = 10;
@@ -185,7 +186,7 @@ namespace Calendar
             // 
             // richTextBox12
             // 
-            this.richTextBox12.Location = new System.Drawing.Point(471, 160);
+            this.richTextBox12.Location = new System.Drawing.Point(471, 194);
             this.richTextBox12.Name = "richTextBox12";
             this.richTextBox12.Size = new System.Drawing.Size(100, 96);
             this.richTextBox12.TabIndex = 9;
@@ -193,7 +194,7 @@ namespace Calendar
             // 
             // richTextBox13
             // 
-            this.richTextBox13.Location = new System.Drawing.Point(577, 160);
+            this.richTextBox13.Location = new System.Drawing.Point(577, 194);
             this.richTextBox13.Name = "richTextBox13";
             this.richTextBox13.Size = new System.Drawing.Size(100, 96);
             this.richTextBox13.TabIndex = 8;
@@ -201,7 +202,7 @@ namespace Calendar
             // 
             // richTextBox14
             // 
-            this.richTextBox14.Location = new System.Drawing.Point(683, 160);
+            this.richTextBox14.Location = new System.Drawing.Point(683, 194);
             this.richTextBox14.Name = "richTextBox14";
             this.richTextBox14.Size = new System.Drawing.Size(100, 96);
             this.richTextBox14.TabIndex = 7;
@@ -209,7 +210,7 @@ namespace Calendar
             // 
             // richTextBox15
             // 
-            this.richTextBox15.Location = new System.Drawing.Point(47, 275);
+            this.richTextBox15.Location = new System.Drawing.Point(47, 335);
             this.richTextBox15.Name = "richTextBox15";
             this.richTextBox15.Size = new System.Drawing.Size(100, 96);
             this.richTextBox15.TabIndex = 27;
@@ -217,7 +218,7 @@ namespace Calendar
             // 
             // richTextBox16
             // 
-            this.richTextBox16.Location = new System.Drawing.Point(153, 275);
+            this.richTextBox16.Location = new System.Drawing.Point(153, 335);
             this.richTextBox16.Name = "richTextBox16";
             this.richTextBox16.Size = new System.Drawing.Size(100, 96);
             this.richTextBox16.TabIndex = 26;
@@ -225,7 +226,7 @@ namespace Calendar
             // 
             // richTextBox17
             // 
-            this.richTextBox17.Location = new System.Drawing.Point(259, 275);
+            this.richTextBox17.Location = new System.Drawing.Point(259, 335);
             this.richTextBox17.Name = "richTextBox17";
             this.richTextBox17.Size = new System.Drawing.Size(100, 96);
             this.richTextBox17.TabIndex = 25;
@@ -233,7 +234,7 @@ namespace Calendar
             // 
             // richTextBox18
             // 
-            this.richTextBox18.Location = new System.Drawing.Point(365, 275);
+            this.richTextBox18.Location = new System.Drawing.Point(365, 335);
             this.richTextBox18.Name = "richTextBox18";
             this.richTextBox18.Size = new System.Drawing.Size(100, 96);
             this.richTextBox18.TabIndex = 24;
@@ -241,7 +242,7 @@ namespace Calendar
             // 
             // richTextBox19
             // 
-            this.richTextBox19.Location = new System.Drawing.Point(471, 275);
+            this.richTextBox19.Location = new System.Drawing.Point(471, 335);
             this.richTextBox19.Name = "richTextBox19";
             this.richTextBox19.Size = new System.Drawing.Size(100, 96);
             this.richTextBox19.TabIndex = 23;
@@ -249,7 +250,7 @@ namespace Calendar
             // 
             // richTextBox20
             // 
-            this.richTextBox20.Location = new System.Drawing.Point(577, 275);
+            this.richTextBox20.Location = new System.Drawing.Point(577, 335);
             this.richTextBox20.Name = "richTextBox20";
             this.richTextBox20.Size = new System.Drawing.Size(100, 96);
             this.richTextBox20.TabIndex = 22;
@@ -257,7 +258,7 @@ namespace Calendar
             // 
             // richTextBox21
             // 
-            this.richTextBox21.Location = new System.Drawing.Point(683, 275);
+            this.richTextBox21.Location = new System.Drawing.Point(683, 335);
             this.richTextBox21.Name = "richTextBox21";
             this.richTextBox21.Size = new System.Drawing.Size(100, 96);
             this.richTextBox21.TabIndex = 21;
@@ -265,7 +266,7 @@ namespace Calendar
             // 
             // richTextBox22
             // 
-            this.richTextBox22.Location = new System.Drawing.Point(47, 396);
+            this.richTextBox22.Location = new System.Drawing.Point(47, 473);
             this.richTextBox22.Name = "richTextBox22";
             this.richTextBox22.Size = new System.Drawing.Size(100, 96);
             this.richTextBox22.TabIndex = 20;
@@ -273,7 +274,7 @@ namespace Calendar
             // 
             // richTextBox23
             // 
-            this.richTextBox23.Location = new System.Drawing.Point(153, 396);
+            this.richTextBox23.Location = new System.Drawing.Point(153, 473);
             this.richTextBox23.Name = "richTextBox23";
             this.richTextBox23.Size = new System.Drawing.Size(100, 96);
             this.richTextBox23.TabIndex = 19;
@@ -281,7 +282,7 @@ namespace Calendar
             // 
             // richTextBox24
             // 
-            this.richTextBox24.Location = new System.Drawing.Point(259, 396);
+            this.richTextBox24.Location = new System.Drawing.Point(259, 473);
             this.richTextBox24.Name = "richTextBox24";
             this.richTextBox24.Size = new System.Drawing.Size(100, 96);
             this.richTextBox24.TabIndex = 18;
@@ -289,7 +290,7 @@ namespace Calendar
             // 
             // richTextBox25
             // 
-            this.richTextBox25.Location = new System.Drawing.Point(365, 396);
+            this.richTextBox25.Location = new System.Drawing.Point(365, 473);
             this.richTextBox25.Name = "richTextBox25";
             this.richTextBox25.Size = new System.Drawing.Size(100, 96);
             this.richTextBox25.TabIndex = 17;
@@ -297,7 +298,7 @@ namespace Calendar
             // 
             // richTextBox26
             // 
-            this.richTextBox26.Location = new System.Drawing.Point(471, 396);
+            this.richTextBox26.Location = new System.Drawing.Point(471, 473);
             this.richTextBox26.Name = "richTextBox26";
             this.richTextBox26.Size = new System.Drawing.Size(100, 96);
             this.richTextBox26.TabIndex = 16;
@@ -305,7 +306,7 @@ namespace Calendar
             // 
             // richTextBox27
             // 
-            this.richTextBox27.Location = new System.Drawing.Point(577, 396);
+            this.richTextBox27.Location = new System.Drawing.Point(577, 473);
             this.richTextBox27.Name = "richTextBox27";
             this.richTextBox27.Size = new System.Drawing.Size(100, 96);
             this.richTextBox27.TabIndex = 15;
@@ -313,7 +314,7 @@ namespace Calendar
             // 
             // richTextBox28
             // 
-            this.richTextBox28.Location = new System.Drawing.Point(683, 396);
+            this.richTextBox28.Location = new System.Drawing.Point(683, 473);
             this.richTextBox28.Name = "richTextBox28";
             this.richTextBox28.Size = new System.Drawing.Size(100, 96);
             this.richTextBox28.TabIndex = 14;
@@ -321,7 +322,7 @@ namespace Calendar
             // 
             // richTextBox31
             // 
-            this.richTextBox31.Location = new System.Drawing.Point(259, 519);
+            this.richTextBox31.Location = new System.Drawing.Point(259, 627);
             this.richTextBox31.Name = "richTextBox31";
             this.richTextBox31.Size = new System.Drawing.Size(100, 96);
             this.richTextBox31.TabIndex = 30;
@@ -329,7 +330,7 @@ namespace Calendar
             // 
             // richTextBox30
             // 
-            this.richTextBox30.Location = new System.Drawing.Point(153, 519);
+            this.richTextBox30.Location = new System.Drawing.Point(153, 627);
             this.richTextBox30.Name = "richTextBox30";
             this.richTextBox30.Size = new System.Drawing.Size(100, 96);
             this.richTextBox30.TabIndex = 29;
@@ -337,7 +338,7 @@ namespace Calendar
             // 
             // richTextBox29
             // 
-            this.richTextBox29.Location = new System.Drawing.Point(47, 519);
+            this.richTextBox29.Location = new System.Drawing.Point(47, 627);
             this.richTextBox29.Name = "richTextBox29";
             this.richTextBox29.Size = new System.Drawing.Size(100, 96);
             this.richTextBox29.TabIndex = 28;
@@ -346,7 +347,7 @@ namespace Calendar
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 23);
+            this.label1.Location = new System.Drawing.Point(73, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 35;
@@ -355,7 +356,7 @@ namespace Calendar
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(185, 23);
+            this.label2.Location = new System.Drawing.Point(185, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 36;
@@ -364,7 +365,7 @@ namespace Calendar
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(286, 23);
+            this.label3.Location = new System.Drawing.Point(286, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 37;
@@ -373,7 +374,7 @@ namespace Calendar
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(403, 23);
+            this.label4.Location = new System.Drawing.Point(403, 10);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 38;
@@ -382,7 +383,7 @@ namespace Calendar
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(504, 23);
+            this.label5.Location = new System.Drawing.Point(504, 10);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 39;
@@ -391,7 +392,7 @@ namespace Calendar
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(603, 23);
+            this.label6.Location = new System.Drawing.Point(603, 10);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 40;
@@ -400,7 +401,7 @@ namespace Calendar
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(709, 23);
+            this.label7.Location = new System.Drawing.Point(709, 10);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 41;
@@ -409,7 +410,7 @@ namespace Calendar
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(73, 144);
+            this.label8.Location = new System.Drawing.Point(73, 146);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 48;
@@ -418,7 +419,7 @@ namespace Calendar
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(185, 144);
+            this.label9.Location = new System.Drawing.Point(185, 146);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(35, 13);
             this.label9.TabIndex = 47;
@@ -427,7 +428,7 @@ namespace Calendar
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(286, 144);
+            this.label10.Location = new System.Drawing.Point(286, 147);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(41, 13);
             this.label10.TabIndex = 46;
@@ -436,7 +437,7 @@ namespace Calendar
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(403, 144);
+            this.label11.Location = new System.Drawing.Point(403, 149);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(41, 13);
             this.label11.TabIndex = 45;
@@ -445,7 +446,7 @@ namespace Calendar
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(498, 144);
+            this.label12.Location = new System.Drawing.Point(498, 149);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(41, 13);
             this.label12.TabIndex = 44;
@@ -454,7 +455,7 @@ namespace Calendar
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(603, 144);
+            this.label13.Location = new System.Drawing.Point(603, 149);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(41, 13);
             this.label13.TabIndex = 43;
@@ -463,7 +464,7 @@ namespace Calendar
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(709, 144);
+            this.label14.Location = new System.Drawing.Point(709, 149);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(41, 13);
             this.label14.TabIndex = 42;
@@ -472,7 +473,7 @@ namespace Calendar
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(67, 259);
+            this.label15.Location = new System.Drawing.Point(67, 303);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(41, 13);
             this.label15.TabIndex = 55;
@@ -481,7 +482,7 @@ namespace Calendar
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(185, 259);
+            this.label16.Location = new System.Drawing.Point(185, 303);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(41, 13);
             this.label16.TabIndex = 54;
@@ -490,7 +491,7 @@ namespace Calendar
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(286, 259);
+            this.label17.Location = new System.Drawing.Point(286, 303);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(41, 13);
             this.label17.TabIndex = 53;
@@ -499,7 +500,7 @@ namespace Calendar
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(397, 259);
+            this.label18.Location = new System.Drawing.Point(397, 303);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(41, 13);
             this.label18.TabIndex = 52;
@@ -508,7 +509,7 @@ namespace Calendar
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(504, 259);
+            this.label19.Location = new System.Drawing.Point(504, 303);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(41, 13);
             this.label19.TabIndex = 51;
@@ -517,7 +518,7 @@ namespace Calendar
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(603, 259);
+            this.label20.Location = new System.Drawing.Point(603, 303);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(41, 13);
             this.label20.TabIndex = 50;
@@ -526,7 +527,7 @@ namespace Calendar
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(709, 259);
+            this.label21.Location = new System.Drawing.Point(709, 303);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(41, 13);
             this.label21.TabIndex = 49;
@@ -535,7 +536,7 @@ namespace Calendar
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(67, 380);
+            this.label22.Location = new System.Drawing.Point(67, 443);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(41, 13);
             this.label22.TabIndex = 62;
@@ -544,7 +545,7 @@ namespace Calendar
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(185, 380);
+            this.label23.Location = new System.Drawing.Point(185, 443);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(41, 13);
             this.label23.TabIndex = 61;
@@ -553,7 +554,7 @@ namespace Calendar
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(286, 380);
+            this.label24.Location = new System.Drawing.Point(286, 443);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(41, 13);
             this.label24.TabIndex = 60;
@@ -562,7 +563,7 @@ namespace Calendar
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(397, 380);
+            this.label25.Location = new System.Drawing.Point(397, 443);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(41, 13);
             this.label25.TabIndex = 59;
@@ -571,7 +572,7 @@ namespace Calendar
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(498, 380);
+            this.label26.Location = new System.Drawing.Point(498, 443);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(41, 13);
             this.label26.TabIndex = 58;
@@ -580,7 +581,7 @@ namespace Calendar
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(603, 380);
+            this.label27.Location = new System.Drawing.Point(603, 443);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(41, 13);
             this.label27.TabIndex = 57;
@@ -589,7 +590,7 @@ namespace Calendar
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(709, 380);
+            this.label28.Location = new System.Drawing.Point(709, 443);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(41, 13);
             this.label28.TabIndex = 56;
@@ -598,7 +599,7 @@ namespace Calendar
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(73, 503);
+            this.label29.Location = new System.Drawing.Point(73, 586);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(41, 13);
             this.label29.TabIndex = 69;
@@ -607,7 +608,7 @@ namespace Calendar
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(185, 503);
+            this.label30.Location = new System.Drawing.Point(185, 586);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(41, 13);
             this.label30.TabIndex = 68;
@@ -616,7 +617,7 @@ namespace Calendar
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(280, 503);
+            this.label31.Location = new System.Drawing.Point(280, 586);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(41, 13);
             this.label31.TabIndex = 67;
@@ -624,7 +625,7 @@ namespace Calendar
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(521, 573);
+            this.button1.Location = new System.Drawing.Point(521, 650);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 42);
             this.button1.TabIndex = 70;
@@ -634,16 +635,26 @@ namespace Calendar
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(480, 528);
+            this.textBox1.Location = new System.Drawing.Point(480, 605);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(206, 20);
             this.textBox1.TabIndex = 71;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(770, 650);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(41, 13);
+            this.label32.TabIndex = 72;
+            this.label32.Text = "label32";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(830, 679);
+            this.ClientSize = new System.Drawing.Size(880, 742);
+            this.Controls.Add(this.label32);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label29);
@@ -781,6 +792,7 @@ namespace Calendar
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label32;
     }
 }
 
