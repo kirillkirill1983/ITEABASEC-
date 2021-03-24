@@ -68,11 +68,18 @@ namespace Calendar
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
 
             DateTime first= DateInit(year,month,day);
-            
+
             //DateTime now = new DateTime(year,month,day);
             //DateTime first = new DateTime(now.Year, now.Month, 1);
             //DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
 
+            for (int i = 0; i < labelmassiv.Length; i++)
+            {
+                if (first.AddDays(i)<DateTime.Now.Date)
+                {
+                    richTextBoxArray[i].BackColor = Color.Gray;
+                }
+            }   
             for (int i = 0; i < labelmassiv.Length; i++)
             
             {
