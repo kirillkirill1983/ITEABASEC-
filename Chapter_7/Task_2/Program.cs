@@ -10,9 +10,9 @@ namespace Task_1
     {
         static void Main(string[] args)
         {
-            Ball ball = new Ball(10);
-            Cylinder cylinder = new Cylinder(10, 12);
-            Pyramid pyramid = new Pyramid(15, 4);
+            Ball ball = new Ball(500,10);
+            Cylinder cylinder = new Cylinder(500,10, 12);
+            Pyramid pyramid = new Pyramid(600,15, 4);
             Console.WriteLine("Объем шара => {0}", ball.GetVolume().ToString());
             Console.WriteLine("Объем  цилиндра => {0}",cylinder.GetVolume().ToString());
             Console.WriteLine("Объем пирамиды  => {0}",pyramid.GetVolume().ToString());

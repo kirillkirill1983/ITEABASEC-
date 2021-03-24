@@ -11,7 +11,7 @@ namespace Task_1
         public int Height { get; set; }
         public int Side { get; set; }
 
-        public Pyramid(int height,int side)
+        public Pyramid(double vVolume, int height,int side):base(vVolume)
         {
             Height =height ;
             Side = side; 

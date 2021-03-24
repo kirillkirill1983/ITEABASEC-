@@ -77,7 +77,7 @@ namespace Calendar
             {
                 if (first.AddDays(i)<DateTime.Now.Date)
                 {
-                    richTextBoxArray[i].BackColor = Color.Gray;
+                    richTextBoxArray[i].BackColor = Color.DarkGray;
                 }
             }   
             for (int i = 0; i < labelmassiv.Length; i++)
