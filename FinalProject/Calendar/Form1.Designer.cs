@@ -328,7 +328,7 @@ namespace Calendar
             // 
             // richTextBox31
             // 
-            this.richTextBox31.Location = new System.Drawing.Point(259, 627);
+            this.richTextBox31.Location = new System.Drawing.Point(259, 617);
             this.richTextBox31.Name = "richTextBox31";
             this.richTextBox31.Size = new System.Drawing.Size(100, 96);
             this.richTextBox31.TabIndex = 30;
@@ -337,7 +337,7 @@ namespace Calendar
             // 
             // richTextBox30
             // 
-            this.richTextBox30.Location = new System.Drawing.Point(153, 627);
+            this.richTextBox30.Location = new System.Drawing.Point(153, 617);
             this.richTextBox30.Name = "richTextBox30";
             this.richTextBox30.Size = new System.Drawing.Size(100, 96);
             this.richTextBox30.TabIndex = 29;
@@ -346,7 +346,7 @@ namespace Calendar
             // 
             // richTextBox29
             // 
-            this.richTextBox29.Location = new System.Drawing.Point(47, 627);
+            this.richTextBox29.Location = new System.Drawing.Point(47, 617);
             this.richTextBox29.Name = "richTextBox29";
             this.richTextBox29.Size = new System.Drawing.Size(100, 96);
             this.richTextBox29.TabIndex = 28;
@@ -361,6 +361,7 @@ namespace Calendar
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 35;
             this.label1.Text = "label1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label2
             // 
@@ -370,6 +371,7 @@ namespace Calendar
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 36;
             this.label2.Text = "label2";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
             // 
@@ -379,6 +381,7 @@ namespace Calendar
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 37;
             this.label3.Text = "label3";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label4
             // 
@@ -388,6 +391,7 @@ namespace Calendar
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 38;
             this.label4.Text = "label4";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label5
             // 
@@ -397,6 +401,7 @@ namespace Calendar
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 39;
             this.label5.Text = "label5";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label6
             // 
@@ -406,6 +411,7 @@ namespace Calendar
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 40;
             this.label6.Text = "label6";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label7
             // 
@@ -415,6 +421,7 @@ namespace Calendar
             this.label7.Size = new System.Drawing.Size(35, 13);
             this.label7.TabIndex = 41;
             this.label7.Text = "label7";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label8
             // 
@@ -424,6 +431,7 @@ namespace Calendar
             this.label8.Size = new System.Drawing.Size(35, 13);
             this.label8.TabIndex = 48;
             this.label8.Text = "label8";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label9
             // 
@@ -433,6 +441,7 @@ namespace Calendar
             this.label9.Size = new System.Drawing.Size(35, 13);
             this.label9.TabIndex = 47;
             this.label9.Text = "label9";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label10
             // 
@@ -442,6 +451,7 @@ namespace Calendar
             this.label10.Size = new System.Drawing.Size(41, 13);
             this.label10.TabIndex = 46;
             this.label10.Text = "label10";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label11
             // 
@@ -451,6 +461,7 @@ namespace Calendar
             this.label11.Size = new System.Drawing.Size(41, 13);
             this.label11.TabIndex = 45;
             this.label11.Text = "label11";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label12
             // 
@@ -460,6 +471,7 @@ namespace Calendar
             this.label12.Size = new System.Drawing.Size(41, 13);
             this.label12.TabIndex = 44;
             this.label12.Text = "label12";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label13
             // 
@@ -469,6 +481,7 @@ namespace Calendar
             this.label13.Size = new System.Drawing.Size(41, 13);
             this.label13.TabIndex = 43;
             this.label13.Text = "label13";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label14
             // 
@@ -478,6 +491,7 @@ namespace Calendar
             this.label14.Size = new System.Drawing.Size(41, 13);
             this.label14.TabIndex = 42;
             this.label14.Text = "label14";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label15
             // 
@@ -487,6 +501,7 @@ namespace Calendar
             this.label15.Size = new System.Drawing.Size(41, 13);
             this.label15.TabIndex = 55;
             this.label15.Text = "label15";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label16
             // 
@@ -496,6 +511,7 @@ namespace Calendar
             this.label16.Size = new System.Drawing.Size(41, 13);
             this.label16.TabIndex = 54;
             this.label16.Text = "label16";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label17
             // 
@@ -505,6 +521,7 @@ namespace Calendar
             this.label17.Size = new System.Drawing.Size(41, 13);
             this.label17.TabIndex = 53;
             this.label17.Text = "label17";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label18
             // 
@@ -514,6 +531,7 @@ namespace Calendar
             this.label18.Size = new System.Drawing.Size(41, 13);
             this.label18.TabIndex = 52;
             this.label18.Text = "label18";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label19
             // 
@@ -523,6 +541,7 @@ namespace Calendar
             this.label19.Size = new System.Drawing.Size(41, 13);
             this.label19.TabIndex = 51;
             this.label19.Text = "label19";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label20
             // 
@@ -532,6 +551,7 @@ namespace Calendar
             this.label20.Size = new System.Drawing.Size(41, 13);
             this.label20.TabIndex = 50;
             this.label20.Text = "label20";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label21
             // 
@@ -541,6 +561,7 @@ namespace Calendar
             this.label21.Size = new System.Drawing.Size(41, 13);
             this.label21.TabIndex = 49;
             this.label21.Text = "label21";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label22
             // 
@@ -550,6 +571,7 @@ namespace Calendar
             this.label22.Size = new System.Drawing.Size(41, 13);
             this.label22.TabIndex = 62;
             this.label22.Text = "label22";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label23
             // 
@@ -559,6 +581,7 @@ namespace Calendar
             this.label23.Size = new System.Drawing.Size(41, 13);
             this.label23.TabIndex = 61;
             this.label23.Text = "label23";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label24
             // 
@@ -568,6 +591,7 @@ namespace Calendar
             this.label24.Size = new System.Drawing.Size(41, 13);
             this.label24.TabIndex = 60;
             this.label24.Text = "label24";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label25
             // 
@@ -577,6 +601,7 @@ namespace Calendar
             this.label25.Size = new System.Drawing.Size(41, 13);
             this.label25.TabIndex = 59;
             this.label25.Text = "label25";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label26
             // 
@@ -586,6 +611,7 @@ namespace Calendar
             this.label26.Size = new System.Drawing.Size(41, 13);
             this.label26.TabIndex = 58;
             this.label26.Text = "label26";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label27
             // 
@@ -595,6 +621,7 @@ namespace Calendar
             this.label27.Size = new System.Drawing.Size(41, 13);
             this.label27.TabIndex = 57;
             this.label27.Text = "label27";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label28
             // 
@@ -604,6 +631,7 @@ namespace Calendar
             this.label28.Size = new System.Drawing.Size(41, 13);
             this.label28.TabIndex = 56;
             this.label28.Text = "label28";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label28.Visible = false;
             // 
             // label29
@@ -614,6 +642,7 @@ namespace Calendar
             this.label29.Size = new System.Drawing.Size(41, 13);
             this.label29.TabIndex = 69;
             this.label29.Text = "label29";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label29.Visible = false;
             // 
             // label30
@@ -624,6 +653,7 @@ namespace Calendar
             this.label30.Size = new System.Drawing.Size(41, 13);
             this.label30.TabIndex = 68;
             this.label30.Text = "label30";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label30.Visible = false;
             // 
             // label31
@@ -634,6 +664,7 @@ namespace Calendar
             this.label31.Size = new System.Drawing.Size(41, 13);
             this.label31.TabIndex = 67;
             this.label31.Text = "label31";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label31.Visible = false;
             // 
             // button1

@@ -44,14 +44,14 @@ namespace Calendar
 
         }
 
-        //public DateTime DateInit() 
-        //{
-        //    //DateTime now = new DateTime(2021, 6, 10);
-        //    DateTime now = DateTime.Now;
-        //    DateTime first = new DateTime(now.Year, now.Month, 1);
-        //    DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
-        //    return first;
-        //}
+        public DateTime DateInit(int year,int month,int  day)
+        {
+            DateTime now = new DateTime(year, month, day);
+            //DateTime now = DateTime.Now;
+            DateTime first = new DateTime(now.Year, now.Month, 1);
+            DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
+            return first;
+        }
 
         public void InitCalendar(int year, int month, int day)
         {
@@ -67,11 +67,11 @@ namespace Calendar
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
 
-            //DateTime first= DateInit();
+            DateTime first= DateInit(year,month,day);
             
-            DateTime now = new DateTime(year,month,day);
-            DateTime first = new DateTime(now.Year, now.Month, 1);
-            DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
+            //DateTime now = new DateTime(year,month,day);
+            //DateTime first = new DateTime(now.Year, now.Month, 1);
+            //DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
 
             for (int i = 0; i < labelmassiv.Length; i++)
             
@@ -115,7 +115,7 @@ namespace Calendar
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
            
-            //вынести в отдельный класс
+           
             DateTime now = DateTime.Now;
             DateTime first = new DateTime(now.Year, now.Month, 1);
             DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
@@ -147,7 +147,7 @@ namespace Calendar
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
 
-            //DateTime first= DateInit();
+           
             foreach (var item in richTextBoxArray)
             {
                 item.BackColor = Color.White;
