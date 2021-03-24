@@ -95,6 +95,8 @@ namespace Calendar
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -652,7 +654,7 @@ namespace Calendar
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(678, 679);
+            this.label32.Location = new System.Drawing.Point(680, 679);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(72, 13);
             this.label32.TabIndex = 72;
@@ -668,11 +670,31 @@ namespace Calendar
             this.label33.Text = "label33";
             this.label33.Visible = false;
             // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(544, 586);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(84, 13);
+            this.label34.TabIndex = 74;
+            this.label34.Text = "ден/месяц/год";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(544, 573);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(65, 13);
+            this.label35.TabIndex = 75;
+            this.label35.Text = "dd/mm/yyyy";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 742);
+            this.Controls.Add(this.label35);
+            this.Controls.Add(this.label34);
             this.Controls.Add(this.label33);
             this.Controls.Add(this.label32);
             this.Controls.Add(this.textBox1);
@@ -814,6 +836,8 @@ namespace Calendar
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
     }
 }
 

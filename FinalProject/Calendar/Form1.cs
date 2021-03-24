@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -17,14 +18,30 @@ namespace Calendar
         {
            
             InitializeComponent();
-            InitCalendar();
+            InitCalendar(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
 
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            InitForm();
+            try
+            {
+                Regex reg = new Regex(@"^(\d{1,2})/(\d{1,2})/(\d{4})$");
+                Match m = reg.Match(textBox1.Text);
+                int dd = int.Parse(m.Groups[1].Value);
+                int mm = int.Parse(m.Groups[2].Value);
+                int yyyy = int.Parse(m.Groups[3].Value);
+                InitCalendar(yyyy, mm, dd);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Ошибка ввода");
+                
+            }
             CalculatedLoading();
+
         }
 
         //public DateTime DateInit() 
@@ -36,7 +53,7 @@ namespace Calendar
         //    return first;
         //}
 
-        public void InitCalendar()
+        public void InitCalendar(int year, int month, int day)
         {
             Label[] labelmassiv = new Label[] {label1,label2,label3,label4,label5
             ,label6,label7,label8,label9,label10,label11,label12,label13,label14,
@@ -50,9 +67,9 @@ namespace Calendar
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
 
-             //DateTime first= DateInit();
-
-            DateTime now = DateTime.Now;
+            //DateTime first= DateInit();
+            
+            DateTime now = new DateTime(year,month,day);
             DateTime first = new DateTime(now.Year, now.Month, 1);
             DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
 
@@ -115,8 +132,25 @@ namespace Calendar
             }
             label33.Visible = true;
             label33.Text = sumFlaf.ToString();
+           
             
             
+        }
+        public void InitForm() 
+        {
+            RichTextBox[] richTextBoxArray = new RichTextBox[] { richTextBox1, richTextBox2,
+            richTextBox3, richTextBox4,richTextBox5, richTextBox6,richTextBox7, richTextBox8,
+            richTextBox9, richTextBox10,richTextBox11, richTextBox12,richTextBox13, richTextBox14,
+            richTextBox15, richTextBox16,richTextBox17, richTextBox18,richTextBox19, richTextBox20,
+             richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
+            richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
+
+            //DateTime first= DateInit();
+            foreach (var item in richTextBoxArray)
+            {
+                item.BackColor = Color.White;
+            }
+
         }
     }
 }
