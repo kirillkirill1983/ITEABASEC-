@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractHandler.cs" />
+    <Compile Include="DOCHandler.cs" />
     <Compile Include="IHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
