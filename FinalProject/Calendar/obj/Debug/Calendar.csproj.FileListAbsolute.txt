@@ -17,4 +17,3 @@ G:\ITEABASEC#\FinalProject\Calendar\obj\Debug\Calendar.csproj.GenerateResource.c
 G:\ITEABASEC#\FinalProject\Calendar\obj\Debug\Calendar.csproj.CoreCompileInputs.cache
 G:\ITEABASEC#\FinalProject\Calendar\obj\Debug\Calendar.exe
 G:\ITEABASEC#\FinalProject\Calendar\obj\Debug\Calendar.pdb
-G:\ITEABASEC#\FinalProject\Calendar\obj\Debug\Calendar.csprojAssemblyReference.cache

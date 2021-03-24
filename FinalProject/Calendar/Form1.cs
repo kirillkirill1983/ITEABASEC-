@@ -16,11 +16,8 @@ namespace Calendar
        
         public Form1()
         {
-           
             InitializeComponent();
             InitCalendar(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
-
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,7 +38,6 @@ namespace Calendar
                 
             }
             CalculatedLoading();
-
         }
 
         public DateTime DateInit(int year,int month,int  day)
@@ -68,18 +64,15 @@ namespace Calendar
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
 
             DateTime first= DateInit(year,month,day);
-
-            //DateTime now = new DateTime(year,month,day);
-            //DateTime first = new DateTime(now.Year, now.Month, 1);
-            //DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
-
+           
             for (int i = 0; i < labelmassiv.Length; i++)
             {
                 if (first.AddDays(i)<DateTime.Now.Date)
                 {
                     richTextBoxArray[i].BackColor = Color.DarkGray;
                 }
-            }   
+            } 
+            
             for (int i = 0; i < labelmassiv.Length; i++)
             
             {
@@ -110,7 +103,6 @@ namespace Calendar
                     richTextBox28.Visible = true;
                 }
             }
-
         }
 
         public void CalculatedLoading()
@@ -121,7 +113,6 @@ namespace Calendar
             richTextBox15, richTextBox16,richTextBox17, richTextBox18,richTextBox19, richTextBox20,
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
-           
            
             DateTime now = DateTime.Now;
             DateTime first = new DateTime(now.Year, now.Month, 1);
@@ -141,10 +132,8 @@ namespace Calendar
             label33.Text = sumFlaf.ToString();
             label36.Visible = true;
             label36.Text = (sumFlaf * 8).ToString();
-           
-            
-            
         }
+       
         public void InitForm() 
         {
             RichTextBox[] richTextBoxArray = new RichTextBox[] { richTextBox1, richTextBox2,
@@ -153,8 +142,7 @@ namespace Calendar
             richTextBox15, richTextBox16,richTextBox17, richTextBox18,richTextBox19, richTextBox20,
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
-
-           
+            
             foreach (var item in richTextBoxArray)
             {
                 item.BackColor = Color.White;
