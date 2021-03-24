@@ -94,6 +94,7 @@ namespace Calendar
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -651,17 +652,28 @@ namespace Calendar
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(770, 650);
+            this.label32.Location = new System.Drawing.Point(678, 679);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(41, 13);
+            this.label32.Size = new System.Drawing.Size(72, 13);
             this.label32.TabIndex = 72;
-            this.label32.Text = "label32";
+            this.label32.Text = "Дней занято";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(770, 679);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(41, 13);
+            this.label33.TabIndex = 73;
+            this.label33.Text = "label33";
+            this.label33.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 742);
+            this.Controls.Add(this.label33);
             this.Controls.Add(this.label32);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
@@ -801,6 +813,7 @@ namespace Calendar
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
     }
 }
 

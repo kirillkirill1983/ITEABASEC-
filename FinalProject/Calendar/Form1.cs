@@ -24,8 +24,18 @@ namespace Calendar
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            CalculatedLoading();
         }
+
+        //public DateTime DateInit() 
+        //{
+        //    //DateTime now = new DateTime(2021, 6, 10);
+        //    DateTime now = DateTime.Now;
+        //    DateTime first = new DateTime(now.Year, now.Month, 1);
+        //    DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
+        //    return first;
+        //}
+
         public void InitCalendar()
         {
             Label[] labelmassiv = new Label[] {label1,label2,label3,label4,label5
@@ -40,14 +50,14 @@ namespace Calendar
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
 
-            DateTime now = new DateTime(2021, 6, 10);
-            //DateTime now = DateTime.Now;
+             //DateTime first= DateInit();
+
+            DateTime now = DateTime.Now;
             DateTime first = new DateTime(now.Year, now.Month, 1);
             DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
 
-
-
             for (int i = 0; i < labelmassiv.Length; i++)
+            
             {
                 labelmassiv[i].Text = first.AddDays(i).ToString("dddd") + "\n" +
                     first.AddDays(i).ToString("dd");
@@ -77,6 +87,36 @@ namespace Calendar
                 }
             }
 
+        }
+
+        public void CalculatedLoading()
+        {
+            RichTextBox[] richTextBoxArray = new RichTextBox[] { richTextBox1, richTextBox2,
+            richTextBox3, richTextBox4,richTextBox5, richTextBox6,richTextBox7, richTextBox8,
+            richTextBox9, richTextBox10,richTextBox11, richTextBox12,richTextBox13, richTextBox14,
+            richTextBox15, richTextBox16,richTextBox17, richTextBox18,richTextBox19, richTextBox20,
+             richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
+            richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
+           
+            //вынести в отдельный класс
+            DateTime now = DateTime.Now;
+            DateTime first = new DateTime(now.Year, now.Month, 1);
+            DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
+            
+            int allDayInit = (int)last.Day*8;
+
+            int sumFlaf = 0;
+            for (int i = 0; i < richTextBoxArray.Length; i++)
+            {
+                if (richTextBoxArray[i].Text!=String.Empty)
+                {
+                    sumFlaf += 1;
+                }
+            }
+            label33.Visible = true;
+            label33.Text = sumFlaf.ToString();
+            
+            
         }
     }
 }
