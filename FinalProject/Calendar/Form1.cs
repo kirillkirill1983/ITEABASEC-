@@ -39,22 +39,44 @@ namespace Calendar
             richTextBox15, richTextBox16,richTextBox17, richTextBox18,richTextBox19, richTextBox20,
              richTextBox21, richTextBox22,richTextBox23, richTextBox24,richTextBox25, richTextBox26,
             richTextBox27, richTextBox28,richTextBox29, richTextBox30,richTextBox31};
-            
-            DateTime now = DateTime.Now;
+
+            DateTime now = new DateTime(2021, 6, 10);
+            //DateTime now = DateTime.Now;
             DateTime first = new DateTime(now.Year, now.Month, 1);
             DateTime last = new DateTime(now.Year, now.Month + 1, 1).AddDays(-1);
+
 
 
             for (int i = 0; i < labelmassiv.Length; i++)
             {
                 labelmassiv[i].Text = first.AddDays(i).ToString("dddd") + "\n" +
-                    first.AddDays(i).ToString("D");
+                    first.AddDays(i).ToString("dd");
                 if (first.AddDays(i).ToString("dddd") == "воскресенье" || first.AddDays(i).ToString("dddd") == "суббота")
                 {
                     richTextBoxArray[i].BackColor = Color.Red;
                 }
+                if (first.AddDays(i).ToString("31")=="31" )
+                {
+                    label31.Visible = true;
+                    richTextBox31.Visible = true;
+                }
+                if (first.AddDays(i).ToString("30") == "30")
+                {
+                    label30.Visible = true;
+                    richTextBox30.Visible = true;
+                }
+                if (first.AddDays(i).ToString("29") == "29")
+                {
+                    label29.Visible = true;
+                    richTextBox29.Visible = true;
+                }
+                if (first.AddDays(i).ToString("28") == "28")
+                {
+                    label28.Visible = true;
+                    richTextBox28.Visible = true;
+                }
             }
-            
+
         }
     }
 }

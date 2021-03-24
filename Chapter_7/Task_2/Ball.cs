@@ -10,10 +10,12 @@ namespace Task_1
     {
         
         public int Radius { get; set; }
+       
 
-        public Ball(int radius )
+        public Ball(double vVolume, int radius ):base(vVolume)
         {
-            Radius = radius;
+
+            this.Radius = radius;
         }
 
         public new double GetVolume() 

@@ -14,6 +14,10 @@ namespace Task_1
             get { return volume; }
             set { volume = value; }
         }
+        public Shape(double vVolume)
+        {
+            volume = vVolume;
+        }
         
         public double GetVolume() 
         {

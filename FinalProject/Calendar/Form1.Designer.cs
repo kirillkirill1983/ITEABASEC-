@@ -319,6 +319,7 @@ namespace Calendar
             this.richTextBox28.Size = new System.Drawing.Size(100, 96);
             this.richTextBox28.TabIndex = 14;
             this.richTextBox28.Text = "";
+            this.richTextBox28.Visible = false;
             // 
             // richTextBox31
             // 
@@ -327,6 +328,7 @@ namespace Calendar
             this.richTextBox31.Size = new System.Drawing.Size(100, 96);
             this.richTextBox31.TabIndex = 30;
             this.richTextBox31.Text = "";
+            this.richTextBox31.Visible = false;
             // 
             // richTextBox30
             // 
@@ -335,6 +337,7 @@ namespace Calendar
             this.richTextBox30.Size = new System.Drawing.Size(100, 96);
             this.richTextBox30.TabIndex = 29;
             this.richTextBox30.Text = "";
+            this.richTextBox30.Visible = false;
             // 
             // richTextBox29
             // 
@@ -343,6 +346,7 @@ namespace Calendar
             this.richTextBox29.Size = new System.Drawing.Size(100, 96);
             this.richTextBox29.TabIndex = 28;
             this.richTextBox29.Text = "";
+            this.richTextBox29.Visible = false;
             // 
             // label1
             // 
@@ -595,6 +599,7 @@ namespace Calendar
             this.label28.Size = new System.Drawing.Size(41, 13);
             this.label28.TabIndex = 56;
             this.label28.Text = "label28";
+            this.label28.Visible = false;
             // 
             // label29
             // 
@@ -604,6 +609,7 @@ namespace Calendar
             this.label29.Size = new System.Drawing.Size(41, 13);
             this.label29.TabIndex = 69;
             this.label29.Text = "label29";
+            this.label29.Visible = false;
             // 
             // label30
             // 
@@ -613,6 +619,7 @@ namespace Calendar
             this.label30.Size = new System.Drawing.Size(41, 13);
             this.label30.TabIndex = 68;
             this.label30.Text = "label30";
+            this.label30.Visible = false;
             // 
             // label31
             // 
@@ -622,6 +629,7 @@ namespace Calendar
             this.label31.Size = new System.Drawing.Size(41, 13);
             this.label31.TabIndex = 67;
             this.label31.Text = "label31";
+            this.label31.Visible = false;
             // 
             // button1
             // 

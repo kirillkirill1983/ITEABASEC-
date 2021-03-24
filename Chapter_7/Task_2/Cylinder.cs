@@ -11,7 +11,7 @@ namespace Task_1
         public int Radius { get; set; }
         public int Height { get; set; }
 
-        public Cylinder(int radius,int height)
+        public Cylinder(double vVolume, int radius, int height) : base(vVolume)
         {
             Radius = radius;
             Height = height;
