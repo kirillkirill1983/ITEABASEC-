@@ -10,9 +10,11 @@ namespace Chapter_10
     {
         static void Main(string[] args)
         {
-           
-            
-           
+            Notebbok notebbok = new Notebbok("Светлое", "Жигули", 20);
+
+            notebbok.Display();
+
+            Console.ReadKey();           
         }
     }
 }
