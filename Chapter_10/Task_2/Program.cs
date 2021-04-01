@@ -23,7 +23,7 @@ namespace Task_2
                 string endStation = Convert.ToString(Console.ReadLine());
                 arrayTrain[i].destination = endStation;
                 arrayTrain[i].namberTraint = i;
-                arrayTrain[i].dateTime = new DateTime();
+                arrayTrain[i].dateTime = DateTime.Today;
                 
             }
 
@@ -37,7 +37,7 @@ namespace Task_2
             {
                 if (arrayTrain[i].namberTraint==namber)
                 {
-                    Console.WriteLine($"{arrayTrain[i].namberTraint }  {arrayTrain[i].dateTime }" );
+                    Console.WriteLine($"{arrayTrain[i].destination }  {arrayTrain[i].dateTime }" );
                 }
                
             }
